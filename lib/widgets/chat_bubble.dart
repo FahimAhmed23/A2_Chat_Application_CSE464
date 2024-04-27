@@ -1,4 +1,4 @@
-import 'package:chat_application_iub_cse464/const_config/color_config.dart';
+import 'package:a2_chat_application/const_config/color_config.dart';
 import 'package:flutter/material.dart';
 
 class ChatBubble extends StatefulWidget {

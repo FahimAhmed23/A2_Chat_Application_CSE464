@@ -1,6 +1,6 @@
-import 'package:chat_application_iub_cse464/const_config/text_config.dart';
-import 'package:chat_application_iub_cse464/widgets/custom_buttons/Rouded_Action_Button.dart';
-import 'package:chat_application_iub_cse464/widgets/input_widgets/simple_input_field.dart';
+import 'package:a2_chat_application/const_config/text_config.dart';
+import 'package:a2_chat_application/widgets/custom_buttons/Rouded_Action_Button.dart';
+import 'package:a2_chat_application/widgets/input_widgets/simple_input_field.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 

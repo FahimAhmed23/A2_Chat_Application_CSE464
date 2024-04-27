@@ -1,6 +1,6 @@
-import 'package:chat_application_iub_cse464/const_config/color_config.dart';
-import 'package:chat_application_iub_cse464/screens/auth/sign_up.dart';
-import 'package:chat_application_iub_cse464/screens/chat/dashboard.dart';
+import 'package:a2_chat_application/const_config/color_config.dart';
+import 'package:a2_chat_application/screens/auth/sign_up.dart';
+import 'package:a2_chat_application/screens/chat/dashboard.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

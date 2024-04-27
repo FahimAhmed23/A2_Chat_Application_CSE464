@@ -1,13 +1,13 @@
 import 'dart:developer';
 
-import 'package:chat_application_iub_cse464/const_config/color_config.dart';
-import 'package:chat_application_iub_cse464/const_config/text_config.dart';
-import 'package:chat_application_iub_cse464/services/user_management_services.dart';
-import 'package:chat_application_iub_cse464/services/utils/helper_functions.dart';
-import 'package:chat_application_iub_cse464/services/utils/validators.dart';
-import 'package:chat_application_iub_cse464/widgets/custom_buttons/Rouded_Action_Button.dart';
-import 'package:chat_application_iub_cse464/widgets/input_widgets/password_input_field.dart';
-import 'package:chat_application_iub_cse464/widgets/input_widgets/simple_input_field.dart';
+import 'package:a2_chat_application/const_config/color_config.dart';
+import 'package:a2_chat_application/const_config/text_config.dart';
+import 'package:a2_chat_application/services/user_management_services.dart';
+import 'package:a2_chat_application/services/utils/helper_functions.dart';
+import 'package:a2_chat_application/services/utils/validators.dart';
+import 'package:a2_chat_application/widgets/custom_buttons/Rouded_Action_Button.dart';
+import 'package:a2_chat_application/widgets/input_widgets/password_input_field.dart';
+import 'package:a2_chat_application/widgets/input_widgets/simple_input_field.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:random_avatar/random_avatar.dart';

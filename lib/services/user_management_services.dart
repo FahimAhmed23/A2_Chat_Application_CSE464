@@ -1,4 +1,4 @@
-import 'package:chat_application_iub_cse464/models/user_model.dart';
+import 'package:a2_chat_application/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UserManage{

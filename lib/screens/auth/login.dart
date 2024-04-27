@@ -1,5 +1,5 @@
-import 'package:chat_application_iub_cse464/screens/auth/sign_up.dart';
-import 'package:chat_application_iub_cse464/screens/chat/dashboard.dart';
+import 'package:a2_chat_application/screens/auth/sign_up.dart';
+import 'package:a2_chat_application/screens/chat/dashboard.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

@@ -1,8 +1,8 @@
-import 'package:chat_application_iub_cse464/const_config/color_config.dart';
-import 'package:chat_application_iub_cse464/screens/auth/sign_up.dart';
-import 'package:chat_application_iub_cse464/screens/chat/chat_tabs/chats.dart';
-import 'package:chat_application_iub_cse464/screens/chat/chat_tabs/discover.dart';
-import 'package:chat_application_iub_cse464/screens/chat/chat_tabs/profile.dart';
+import 'package:a2_chat_application/const_config/color_config.dart';
+import 'package:a2_chat_application/screens/auth/sign_up.dart';
+import 'package:a2_chat_application/screens/chat/chat_tabs/chats.dart';
+import 'package:a2_chat_application/screens/chat/chat_tabs/discover.dart';
+import 'package:a2_chat_application/screens/chat/chat_tabs/profile.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter/material.dart';
