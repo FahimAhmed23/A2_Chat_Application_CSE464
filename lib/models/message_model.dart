@@ -21,6 +21,7 @@ class MessageModel {
     this.uuid,
     this.name,
     this.time,
+
   });
 
   factory MessageModel.fromMap(Map<String, dynamic> json) => MessageModel(

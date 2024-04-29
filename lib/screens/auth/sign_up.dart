@@ -123,36 +123,36 @@ class _SignUpState extends State<SignUp> {
                           onClick: () async{
                             FocusScope.of(context).unfocus();
                             if(formKey.currentState!.validate())
-                              {
-                                await auth.createUserWithEmailAndPassword(
-                                    email: emailController.text.trim(),
-                                    password: passwordController.text.trim()
-                                ).then((value) {
-                                  UserManage().createUserProfile(userName: usernameController.text, userEmail: emailController.text.trim(),userID: auth.currentUser!.uid);
-                                  Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>const Dashboard()), (route) => false);
-                                  if(value.user != null)
-                                    {
-                                      showSnackBar(
-                                          context: context,
-                                          title: "Successful",
-                                          height: 200,
-                                          message: "Welcome to Chat META",
-                                          failureMessage: false
-                                      );
-                                    }
-                                  else
-                                    {
-                                      showSnackBar(
-                                          context: context,
-                                          title: "Error",
-                                          height: 200,
-                                          message: "Please try again later",
-                                          failureMessage: true
-                                      );
-                                    }
-                                });
+                            {
+                              await auth.createUserWithEmailAndPassword(
+                                  email: emailController.text.trim(),
+                                  password: passwordController.text.trim()
+                              ).then((value) {
+                                UserManage().createUserProfile(userName: usernameController.text, userEmail: emailController.text.trim(),userID: auth.currentUser!.uid);
+                                Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>const Dashboard()), (route) => false);
+                                if(value.user != null)
+                                {
+                                  showSnackBar(
+                                      context: context,
+                                      title: "Successful",
+                                      height: 200,
+                                      message: "Welcome to Chat META",
+                                      failureMessage: false
+                                  );
+                                }
+                                else
+                                {
+                                  showSnackBar(
+                                      context: context,
+                                      title: "Error",
+                                      height: 200,
+                                      message: "Please try again later",
+                                      failureMessage: true
+                                  );
+                                }
+                              });
 
-                              }
+                            }
                           },
                           width: size.width * 0.8,
                           label: "Sign Up"
@@ -167,7 +167,6 @@ class _SignUpState extends State<SignUp> {
                           ),
                           InkWell(
                               onTap: () {
-                                // Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>const LoginPage()), (route) => false);
                                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const LoginPage()));
                               },
                               child: Padding(
